@@ -9,5 +9,6 @@ arrayEnglish.push(userInput);
 //console.log(typeof(arrayEnglish));
 console.log(arrayEnglish);
 vowels.forEach((vowel) => console.log(vowel));
-//can't use rray functions on strings although stings are like arrays
+//can't use array functions on strings although stings are like arrays
 //arrayEnglish.forEach((letter1) => console.log(letter1));
+//testing merge
