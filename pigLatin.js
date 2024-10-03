@@ -54,7 +54,7 @@ arrayPigLatin.forEach((noVowels) => {
         arrayPigLatin[i] = pigLatin;
     }
 })
-
+// convert words in the pig latin array into a string seperating each word with a space 
 const translation = arrayPigLatin.join(" ");
 console.log("In Pig Latin: " + translation)
 
