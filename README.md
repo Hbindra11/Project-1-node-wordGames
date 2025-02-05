@@ -1,4 +1,5 @@
-# 🛠️ Command line word games
+# 🛠️ Project 2: Command line word games
+### Description:
 We’re excited to continue our journey into the world of JavaScript by stepping out of the browser and exploring how to create small programs that run directly in the command line using Node.js. This project will challenge you to apply your JavaScript skills in a new environment and develop some fun and interactive command-line games.
 
 ## Game 1: Rock Paper Scissors
