@@ -8,10 +8,21 @@ The possible shapes are "rock" (a fist), "paper" (an open hand), and "scissors" 
 The game has three possible outcomes other than a tie: rock crushes scissors, scissors cuts paper, and paper covers rock. 
 This game is often used as a decision-making tool or as a playful challenge.
 
-### How to run the code from your console example:
+### How to run the game from your console:
+To play Rock Paper Scissors, type the following command in your console, replacing `<choice>` with your selection of either `rock`, `paper`, or `scissors`:
+
+```sh
+node rockPaperScissors.js <choice>
+```
+
+For example, to choose rock, you would type:
+
+```sh
 node rockPaperScissors.js rock
+```
 #### Output:
 You chose rock. Computer chose scissors. You win!
+
 
 ## Game 2: English to Pig Latin Translator
 
@@ -33,10 +44,21 @@ If a word starts with a vowel add the word “way” at the end of the word.
 Awesome = Awesome +way = Awesomeway
 - Output the translated phrase to the console.
 
-### How to run the code from your console example:
+### How to run the code from your console:
+To translate an English phrase to Pig Latin, type the following command in your console, replacing `<phrase>` with the phrase you want to translate:
+
+```sh
+node pigLatin.js "<phrase>"
+```
+
+For example, to translate "Pig Latin is hard to speak", you would type:
+
+```sh
 node pigLatin.js "Pig Latin is hard to speak"
+```
 #### Output: 
 Igpay Atinlay isway ardhay otay eakspay
+
 
 # Game 3: Caesar Cipher
 
@@ -44,11 +66,22 @@ Igpay Atinlay isway ardhay otay eakspay
 This program implements a basic Caesar Cipher encryption.
 
 ## How the program works:
-The program takes a phrase and a shift number as inputs from process.argv. It then encrypts the phrase by shifting each letter, based on its position in the english alphabet, by the specified number. It is case insensitive and so,
+The program takes a phrase and a shift number as inputs from process.argv. It then encrypts the phrase by shifting each letter, based on its position in the English alphabet, by the specified number. It is case insensitive and so,
 - A negative shift means shift to the left
 - A positive shift means shift to the right
 
 ### How to run the code from your console example:
+To encrypt a phrase using the Caesar Cipher, type the following command in your console, replacing `<phrase>` with the phrase you want to encrypt and `<shift>` with the number of positions to shift:
+
+```sh
+node caesarCipher.js "<phrase>" <shift>
+```
+
+For example, to encrypt "hello world" with a shift of 3, you would type:
+
+```sh
 node caesarCipher.js "hello world" 3
+```
 #### Output:
- khoor zruog
+khoor zruog
+
