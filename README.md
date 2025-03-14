@@ -1,4 +1,4 @@
-# Project: Command line word games
+# Project 1: Command line word games
 
 ## Game 1: Rock Paper Scissors
 
